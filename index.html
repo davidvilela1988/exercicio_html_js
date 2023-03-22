@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camisas São Paulo F. C.</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conjunto do São Paulo Futebol Clube</h1>
+      <h2>Pedidos de materiais:</h2>
+      <form id="form-purchase">
+        <input
+          type="text"
+          id="full-name"
+          placeholder="Nome Completo"
+          required
+        />
+        <input type="email" id="email" placeholder="E-mail" />
+        <input
+          type="number"
+          id="number-shorts"
+          placeholder="Quantidade de Calções (Obs: a quantidade de Calções deve ser menor que o número de camisas)"
+          required
+        />
+        <input
+          type="number"
+          id="number-shirts"
+          placeholder="Quantidade de Camisas (Obs: a quantidade de Camisas deve ser maior que o número de calções)"
+          required
+        />
+        <h5 class="error">
+          O número de camisas deve ser maior que o número de calções.
+        </h5>
+        <textarea
+          id="description"
+          placeholder="Descrição/detalhes"
+          required
+        ></textarea>
+        <button type="submit" id="send">Enviar Pedido</button>
+        <h5 class="success"></h5>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+  <footer>
+    <hr />
+    <div class="container">
+      <p>
+        &copy; Desenvolvido por David Vilela - Todos os direitos reservados -
+        2023
+      </p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url(./background-sp.jpg);
+  background-size: 100%;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 640px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  color: antiquewhite;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  color: antiquewhite;
+}
+
+form {
+  margin-top: 40px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 13px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: rgb(184, 183, 183);
+}
+
+button:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+hr {
+  margin-top: 400px;
+}
+
+p {
+  color: antiquewhite;
+  text-align: center;
+  font-weight: 600;
+  padding-top: -15px;
+  padding-bottom: -15px;
+  margin-top: -45px;
+  margin-bottom: -35px;
+}
+
+.error {
+  display: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.success {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
